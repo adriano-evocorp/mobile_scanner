@@ -3,7 +3,6 @@ library;
 
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 // ignore: unnecessary_import needed for older Flutter sdk's
@@ -14,7 +13,6 @@ import 'package:mobile_scanner/src/enums/camera_lens_type.dart';
 import 'package:mobile_scanner/src/enums/detection_speed.dart';
 import 'package:mobile_scanner/src/enums/mobile_scanner_error_code.dart';
 import 'package:mobile_scanner/src/enums/torch_state.dart';
-import 'package:mobile_scanner/src/method_channel/mobile_scanner_method_channel.dart';
 import 'package:mobile_scanner/src/mobile_scanner_exception.dart';
 import 'package:mobile_scanner/src/mobile_scanner_platform_interface.dart';
 import 'package:mobile_scanner/src/objects/barcode_capture.dart';
